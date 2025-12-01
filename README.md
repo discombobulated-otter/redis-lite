@@ -35,7 +35,7 @@ cmake --build build -j
 This produces the executable:
 
 ```
-./build/redis_but_cooler
+./build/redis-lite
 ```
 
 ---
@@ -43,7 +43,7 @@ This produces the executable:
 ## 🚀 Running the server
 
 ```bash
-./build/redis_but_cooler
+./build/redis-lite
 ```
 
 The server listens on **port 6379**, the standard Redis port.
@@ -99,7 +99,6 @@ src/
 * Build a TCP server from scratch using Linux syscalls
 * Learn how RESP parsing and serialization works
 * Practice C++20, RAII, and clean modular design
-* Ship a résumé-ready systems project
 
 ---
 
