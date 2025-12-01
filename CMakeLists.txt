@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.16)
-project(redis_but_cooler LANGUAGES CXX)
+project(redis-lite LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(redis_but_cooler
+add_executable(redis-lite
     src/main.cpp
     src/server/Server.cpp
     src/server/Socket.cpp
